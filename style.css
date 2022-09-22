@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+th {
+  background-color: blue;
+  padding: 2rem;
+}
+
+thead > tr > th {
+  top: -2px;
+  position: sticky;
+  background-color: blue;
+}
+
+td {
+  border-collapse: separate;
+  border: 1px solid black;
+}
+
+tbody > tr > td {
+  text-align: center;
+}
+
+
+tbody > tr:nth-child(odd) {
+  background-color: white;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: gray;
+}
